@@ -1,0 +1,190 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 0.4em;
+}
+ 
+body::-webkit-scrollbar-track {
+    background-color: #e3e3e3;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #533e00;
+  outline: 1px solid $pealred;
+}
+::-moz-selection { 
+    color:#fff !important;
+    background: #533e00 !important;
+}
+
+::selection {
+    color:#fff !important;
+    background: #533e00 !important;
+}
+.delay0-5 {
+    -animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+}
+
+.delay1 {
+    -animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+}
+.delay1-3 {
+    -animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+}
+
+.delay1-5 {
+    -animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+
+.delay1-7 {
+    -animation-delay: 1.7s;
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+}
+
+.delay1 {
+    -animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+}
+.delete_sides_padding{
+    padding-right:0px !important;
+    padding-left:0px !important;
+    margin-right: 0px !important;
+    margin-left:0px !important;
+}
+.line_height_45{
+    line-height: 45px;
+}
+.innova_title2{
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
+    -webkit-border-image: url(../images/title_underline.png) 50 round ; /* Safari 3.1-5 */
+    -o-border-image: url(../images/title_underline.png) 50 round; /* Opera 11-12.1 */
+    border-image: url(../images/title_underline.png) 50 round;
+}
+.innova_address_info_container{
+    min-height: 80px;
+    padding:5px 0;
+}
+.innova_address_info_text{
+    margin-top:18px; 
+}
+.inno_navbar_container_fluid{
+    margin-top:-12px;
+}
+.navbar-nav li{
+    margin: 0px 25px;
+    font-weight: bolder;
+}
+.inno_link{
+    padding-top: 100px;
+    /* border-bottom: 3px solid red; */
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    border-bottom: 3px solid #533e00;
+}
+.hero_bg_container_fluid{
+    background-image: url(../images/innova_05.png);
+    background-size: 100% 100%;
+    height: 730px;
+}
+.latest_maid_section_fluid{
+    min-height: 703px;
+}
+.latest_maid_section_container{
+    height: auto;
+    padding-top:58px;
+    padding-bottom:58px;
+}
+.innova_title2_container{
+    margin-bottom:30px;
+}
+.innova-maid-card-link{
+    text-decoration: none !important;
+}
+.card:hover{
+    cursor: pointer;
+    border: 1px solid #888888;
+}
+.innova_btn{
+    background: #533e00;
+    color: #fff;
+    border: 1px solid #533e05;
+   
+}
+.viewall_btn{
+    padding:10px 40px;
+    margin-top: 20px;
+}
+.innova_btn:hover{
+    background : #332a12;
+    color: #fff;
+    border: 1px solid #332a12;
+}
+.what_we_do_container, .why_us_container{
+    padding: 80px 0px 120px 0px;
+    border-bottom:3px solid #e3e3e3;
+}
+.why_us_container{
+    border-bottom: none;
+}
+.why_us_card{
+    padding: 10px;
+    border: none;
+}
+.why_us_card:hover{
+    border:none;
+}
+.card-block {
+    height: 78px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.btn-plain{
+    color: #533e05;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .navbar-brand
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            margin:0 auto;
+        }
+    }
+    
