@@ -175,7 +175,30 @@ body::-webkit-scrollbar-thumb {
     background-image: url(../images/subpage_breadcamp_bg.png);
     background-repeat: repeat-x;
 }
-
+.aboutus_container{
+    min-height: 450px;
+    padding-top:45px;
+}
+.aboutus_text{
+    padding-top: 20px;
+}
+.services_text{
+    line-height: 2.2em;
+    padding-top: 20px;
+}
+.services_types_container{
+    min-height: 640px;
+    background-color: #d2bf85;
+    margin-top:40px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+.service_type_pic {
+     transition: all .2s ease-in-out;
+     }
+.service_type_pic:hover { 
+    transform: scale(1.1); 
+}
 
 
 
