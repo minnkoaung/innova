@@ -1,7 +1,5 @@
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
     .navbar-nav li{
         margin: 0px 0px;
         font-weight: bolder;
@@ -9,16 +7,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .inno_link{
         padding-top: 10px;
         /* border-bottom: 3px solid red; */
+        color:red;
     }
-}
+ }
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
-  
-}
+/* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767px) { 
 
-/* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2)
-and (min-resolution: 192dpi) { 
-   
-}
+  }
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991px) {
+
+  }
+ 
+/* Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199px) {  
+     
+ }

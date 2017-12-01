@@ -155,10 +155,26 @@ body::-webkit-scrollbar-thumb {
     color: #533e05;
     font-weight: bolder;
 }
+.footer_container_fluid{
+    min-height: 310px;
+    background: #533e05;
+    padding:54px 0 54px 0;
+    color: #fff;
+}
+.footer_mail_link{
+    color:#eef691;
+    text-decoration: none;
+}
+.footer_mail_link:hover{
+    color:#fff;
+    text-decoration: none;
+}
 
-
-
-
+.subpages_bradcamp{
+    height: 280px;
+    background-image: url(../images/subpage_breadcamp_bg.png);
+    background-repeat: repeat-x;
+}
 
 
 
