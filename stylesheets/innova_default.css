@@ -199,7 +199,40 @@ body::-webkit-scrollbar-thumb {
 .service_type_pic:hover { 
     transform: scale(1.1); 
 }
-
+.search_maid_form{
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+}
+.search_maid_form_col{
+    margin: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
+}
+.page-item.active .page-link{
+    background: #533e00;
+    color: #fff;
+    border-color: #533e00;
+    border-bottom: 5px solid #2a332b; 
+    border-radius: 5px;
+}
+.page-link{
+    background: #baa361;
+    color: #fff;
+    border-color: #baa361;
+    border-bottom: 5px solid #2a332b; 
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.page-link:focus, .page-link:hover{
+    background: #533e00;
+    color: #fff;
+    border-color: #533e00;
+    border-bottom: 5px solid #2a332b; 
+    border-radius: 5px;
+}
+.contact_name,.contact_email{
+    height: 75px;
+    line-height: 75px;
+}
 
 
 
