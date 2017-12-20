@@ -73,6 +73,24 @@ body::-webkit-scrollbar-thumb {
     -o-border-image: url(../images/title_underline.png) 50 round; /* Opera 11-12.1 */
     border-image: url(../images/title_underline.png) 50 round;
 }
+.innova_title_abts{
+    display: inline-block;
+    width: 40%;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
+    -webkit-border-image: url(../images/abtus_title_underline.png) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(../images/abtus_title_underline.png) 50 round; /* Opera 11-12.1 */
+    border-image: url(../images/abtus_title_underline.png) 50 round;
+}
+.innova_title_abts2{
+    display: inline-block;
+    width: 350px;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 10px;
+    -webkit-border-image: url(../images/abtus_title_underline2.png) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(../images/abtus_title_underline2.png) 50 round; /* Opera 11-12.1 */
+    border-image: url(../images/abtus_title_underline2.png) 50 round;
+}
 .innova_address_info_container{
     min-height: 80px;
     padding:5px 0;
